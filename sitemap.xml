@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/alpha-testing/</loc>
+        <loc>http://bigdatatools.github.io/doxecute/alpha-testing/</loc>
         <lastmod>2013-08-01T19:18:55-07:00</lastmod>
     </url>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/blog/archives/</loc>
+        <loc>http://bigdatatools.github.io/doxecute/blog/archives/</loc>
         <lastmod>2013-08-01T15:16:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/blog/</loc>
+        <loc>http://bigdatatools.github.io/doxecute/blog/</loc>
         <lastmod>2013-08-01T15:16:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/</loc>
+        <loc>http://bigdatatools.github.io/doxecute/</loc>
         <lastmod>2013-08-01T19:35:01-07:00</lastmod>
     </url>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/robots.txt</loc>
+        <loc>http://bigdatatools.github.io/doxecute/robots.txt</loc>
         <lastmod>2013-08-01T15:16:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://bigdatatools.github.io//bigdatatools@github/tutorials/</loc>
+        <loc>http://bigdatatools.github.io/doxecute/tutorials/</loc>
         <lastmod>2013-08-01T19:38:10-07:00</lastmod>
     </url>
 </urlset>

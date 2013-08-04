@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Doxecute]]></title>
-  <link href="http://bigdatatools.github.io//bigdatatools@github/atom.xml" rel="self"/>
-  <link href="http://bigdatatools.github.io//bigdatatools@github/"/>
-  <updated>2013-08-02T17:41:48-07:00</updated>
-  <id>http://bigdatatools.github.io//bigdatatools@github/</id>
+  <link href="http://bigdatatools.github.io/doxecute/atom.xml" rel="self"/>
+  <link href="http://bigdatatools.github.io/doxecute/"/>
+  <updated>2013-08-04T15:55:55-07:00</updated>
+  <id>http://bigdatatools.github.io/doxecute/</id>
   <author>
     <name><![CDATA[Big Data Tools]]></name>
     
