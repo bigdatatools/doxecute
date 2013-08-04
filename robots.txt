@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://bigdatatools.github.io/doxecute/sitemap.xml 
+Sitemap: http://doxecute.com/sitemap.xml 
