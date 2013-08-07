@@ -1,0 +1,16 @@
+# Prepare the build folder.
+rm -rf libs-build
+mkdir libs-build
+cd libs-build
+BUILD_PATH=`pwd`
+
+# Extract protobuf source code
+tar xvfz ../libs/protobuf-2.5.0.tar.gz
+cd protobuf-2.5.0
+
+# build protobuf
+./configure
+make
+make check
+make install
+
