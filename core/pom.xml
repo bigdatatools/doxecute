@@ -10,7 +10,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>A document based database with basic SQL support.</name>
   <url>http://www.doxecute.com</url>
-
+  <properties>
+    <java.version>1.6</java.version>
+  </properties>
+  
   <dependencies>
     <dependency>
       <groupId>io.netty</groupId>
@@ -30,6 +33,14 @@
     <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
     <plugins>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
           <execution>
@@ -38,7 +49,7 @@
             <configuration>
               <tasks>
                 <exec executable="protoc">
-                  <arg value="--java_out=${project.basedir}/src/main/java/com/bdtools/doxecute" />
+                  <arg value="--java_out=${project.basedir}/src/main/java" />
                   <arg value="--proto_path=${project.basedir}/src/main/java/com/bdtools/doxecute" />
                   <arg value="${project.basedir}/src/main/java/com/bdtools/doxecute/WorldClockProtocol.proto" />
                 </exec>
